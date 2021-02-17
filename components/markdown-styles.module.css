@@ -1,0 +1,31 @@
+.markdown {
+	@apply mt-7 text-xl leading-8;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown li,
+.markdown blockquote {
+	@apply mb-7;
+}
+
+.markdown ul {
+	@apply list-inside list-disc;
+}
+
+.markdown ol {
+	@apply list-inside list-decimal;
+}
+
+.markdown blockquote {
+	@apply mb-5 -ml-5 pl-5 border-solid border-l-4 text-2xl italic leading-9;
+}
+
+.markdown a {
+	@apply underline;
+}
+
+.markdown h2 {
+	@apply text-3xl mb-7 font-black;
+}
